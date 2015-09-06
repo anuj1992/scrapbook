@@ -1,0 +1,507 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	padding:0px;
+}
+#navigation{
+	width:800px;
+	height:50px;
+	background:#3498db;
+	border-bottom:dotted 1px  #FFFFFF;
+	}
+	
+	.userName
+	{margin-top:27px;	
+	width:auto;
+	position:absolute;
+	color:white;
+	margin-left:200px;
+	font-family:login;
+	font-size:1.5em;
+	font-weight:800;
+	letter-spacing:2px;
+
+}
+#linkdevider 
+{
+	}
+#linkdevider a{
+width:auto;
+text-decoration:none;
+	padding-left:10px;
+		text-align:left;
+		background-color:#FFF;
+		/*color:#FFF;*/
+		color:#3498db;
+		margin-top:5px;
+		
+		font-size:14px;
+		font-family:twCent;
+		display:block;
+}
+#linkdevider a:hover
+{
+	font-weight:bold;}
+#navigation ul li
+{
+	
+	list-style-type:none;
+	float:left;
+	
+	
+}
+.chngpss
+{
+	margin-top:140px;
+}
+
+#UplodPIc
+{
+	margin-top:130px;}
+	
+	
+#navigation ul li a{
+	text-align:center;
+	font-family:myNew;
+	display:block;
+	width:120px;
+	height:50px;
+	line-height:50px;
+	font-size:24px;
+	color:#FFFFFF;
+	font-weight:lighter;
+	text-decoration:none;
+	margin-left:30px;
+}
+#navigation ul li a:hover{
+	background:#64baf3;
+}
+.container{
+	background-color:#3498db;
+	width:800px;
+	height:auto;
+}
+.img{
+	background-image:url(Scrapbook_CS.png);
+	width:800px;
+	height:500px;
+	background-repeat:no-repeat;
+	background-position:center;
+	border-bottom:dotted 1px  #FFFFFF;
+	}
+.contentContainer{
+	background-image:url(login_bg.png);
+	width:800px;
+	height:500px;
+	background-repeat:no-repeat;
+	background-position:center;
+	border-bottom:dotted 1px  #FFFFFF;
+	background-color:#3498db;
+	color:#FFFFFF;
+	}
+	.textClass{
+		font-family:myNew;
+		border:solid 1px #00FFFF;
+		padding-left:10px;
+		width:250px;
+		border-radius:2px;
+		-webkit-border-radius:2px;
+		-moz-border-radius:2px;
+		font-weight:lighter;
+		}
+		.textClass:hover{
+			border:solid 1px  #000000;
+		}
+			
+			
+		.btn{
+			width:261px;
+			background-image:url(btn.png);
+			background-repeat:repeat-x;
+			border:solid 1px #FFFFFF;
+			border-radius:2px;
+		-webkit-border-radius:2px;
+		-moz-border-radius:2px;
+			}
+			.btn:hover{
+				border:solid 1px  #000000;
+			}
+#registerUSer{
+	text-align:left;
+	width:363px;
+	position:absolute;
+	top:280px;
+	margin-left:270px;
+}
+/*testimonialContainer----*/
+#testimo{
+	text-align:left;
+	width:auto;
+	position:absolute;
+	top:215px;
+	color:white;
+	margin-left:235px;
+	font-family:login;
+	font-size:1.7em;
+	font-weight:;
+	letter-spacing:2px;
+}
+.afterloginContainer
+{
+	background-position:top 20px;
+	background-image:url(testimo.png);
+	background-repeat:no-repeat;
+	width:800px;
+	height:550px;
+	background-repeat:no-repeat;
+	background-position:center;
+	border-bottom:dotted 1px  #FFFFFF;
+	background-color:#3498db;
+	color:#FFFFFF;
+	/*overflow:scroll;
+	overflow-x:hidden;
+	overflow-y:small;*/
+	}
+	
+	/*HeadingTestinomial------*/
+	.testiHeading
+	{
+		margin-top:27px;	
+	width:auto;
+	position:absolute;
+	color:white;
+	margin-left:340px;
+	font-family:login;
+	font-size:1.5em;
+	font-weight:800;
+	letter-spacing:2px;
+	}
+	#bird
+	{
+	margin-top:27px;	
+	width:auto;
+	margin-left:200px;
+	position:absolute;
+	color:white;
+	width:309px;
+	height:156px;
+	background-image:url(flying.gif);
+	
+	}
+#testimo1{
+	text-align:left;
+	width:auto;
+	position:absolute;
+	top:390px;
+	color:white;
+	margin-left:290px;
+	font-family:twCent;
+	font-size:1em;
+	letter-spacing:5px;
+
+}
+
+.footerContainer{
+}
+.footer{
+	line-height:30px;
+	top:10px;
+	height:40px;
+	width:800px;
+	background:#3498db;
+	text-align:center;
+	font-family:mynew;
+	font-size: small;
+	color:#FFF;
+	}
+.respective{
+	
+	margin-top:-80px;
+	font-family:login;
+	font-size:2.5em;
+	font-weight:bold;
+	margin-left:20px;
+}
+	.footer a{
+		text-decoration:none;
+		color:#FFF;
+	}
+	.footer a:hover{
+		
+	}
+
+
+
+#pic{
+	height:110px;
+	width:100px;
+	position:absolute;
+	margin-left:95px;
+	margin-top:60px;
+	transform:rotate(-28.49deg);
+-moz-transform:rotate(-28.49deg); 
+-webkit-transform:rotate(-28.49deg);
+border:solid 3px #fff;
+	
+}
+#pic img{
+	height:110px;
+	width:99px;
+	box-shadow:#FFF ; } 
+	
+	#Backpic{
+	height:110px;
+	width:100px;
+	position:absolute;
+	margin-left:70px;
+	margin-top:60px;
+	transform:rotate(-40.49deg);
+	-moz-transform:rotate(-40.49deg); 
+	-webkit-transform:rotate(-47.49deg);
+	/*box-shadow:#fff 1px 4px 5px  ;*/
+	border:solid 3px #fff;
+	
+	}
+	
+	#Backpic img{
+	height:110px;
+	width:99px;
+	box-shadow:#FFF ; } 
+	
+	#frame{
+	width:163px;
+	height:163px;
+	position:absolute;
+	margin-left:48px;
+	margin-top:40px;
+	background-image:url(frame.png);
+	background-repeat:no-repeat;
+	transform:rotate(-14.49deg);
+	-moz-transform:rotate(-14.49deg); 
+	-webkit-transform:rotate(-14.49deg);
+}
+	/*testimonialcontainer*/
+#testimonial{
+	position:absolute;
+	width:403px;
+	height:394px;
+	background-image:url(testonomial_bg.png);
+	background-repeat:no-repeat;
+	margin-left:200px;
+	margin-top:100px;
+	
+}
+.innerHeading{
+		width:auto;
+		margin-top:100px;
+		color:white;
+		font-family:login;
+		font-size:1.5em;
+		font-weight:500;
+		letter-spacing:2px;
+}
+
+.txtCOntainer{
+	font-family:palinto;
+	
+	font-size:small;
+	font-style:italic;
+	width:380px;
+	height:150px;
+	overflow:scroll;
+	overflow-x:hidden;
+	
+} 
+.fromSnderName{
+	font-family:login;
+	text-align:left;
+	margin-left:250px;
+	font-size:2.5em;
+	font-weight:500;
+	letter-spacing:2px;
+}
+.fromSnderName1{
+	font-family:login;
+	text-align:left;
+	text-align:right;
+	margin-top:-10px;
+	margin-right:5px;
+	font-size:1.4em;
+	font-weight:500;
+	letter-spacing:2px;
+}
+
+/*---ScrollbarFormatting---*/
+#ex3::-webkit-scrollbar{
+width:10px;
+background-color:#3498db;
+} 
+#ex3::-webkit-scrollbar-thumb{
+background-color:#FFF;
+border-radius:10px;
+}
+#ex3::-webkit-scrollbar-thumb:hover{
+background-color:#CCC;
+border:1px solid #333333;
+}
+#ex3::-webkit-scrollbar-thumb:active{
+background-color:#A6393D;
+border:1px solid #333333;
+} 
+#ex3::-webkit-scrollbar-track{
+border:1px #FFF solid;
+border-radius:5px;
+-webkit-box-shadow:0 0 6px gray inset;
+} 
+
+/*--flying bird in home page--*/
+.homebird{
+	width:309px;
+	height:156px;
+	background-image:url(birdhome.gif);
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-top:20px;
+	left:500px;}
+	
+	.RecieveScrapUSerlistContainer{
+	width:156px;
+	height:352px;
+	background-image:url(userlistframepng.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-top:120px;
+	margin-left:30px;
+	
+	
+	}
+	.picContainer{
+		position:absolute;
+		margin-top:-70px;
+		transform:rotate(-14.49deg);
+		-moz-transform:rotate(-14.49deg); 
+		-webkit-transform:rotate(14.49deg);
+		}
+
+.userlistFrame{
+	width:156px;
+	height:352px;
+	background-image:url(userlistframepng.png);
+	background-repeat:no-repeat;
+	float:right;
+	margin-top:120px;
+	margin-right:24px;
+	
+	
+	}
+	.userlistheading{
+	width:auto;
+	margin-top:60px;
+	color:white;
+	font-family:login;
+	font-size:1.5em;
+	font-weight:500;
+	letter-spacing:2px;}
+	.userList{
+		height:190px;
+		width:140px;
+		overflow:scroll;
+		overflow-x:hidden;
+	}
+	.username{
+		padding-left:10px;
+		text-align:left;
+		background-color:#FFF;
+		/*color:#FFF;*/
+		color:#3498db;
+		margin-top:5px;
+		font-size:14px;
+		font-family:twCent;
+	}
+	#usernamehover a{
+		color:#3498db;
+		text-decoration:none;
+	}
+	#usernamehover a:hover{
+		color:#3498db;
+		text-decoration:none;
+		font-weight:bold;
+	}
+	
+	.formTextBox{
+		color:#000000;
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		width:250px;
+		border:solid 2px #FFF;
+		font-size:14px;
+		padding-left:10px;
+		font-family:palinto;
+	font-style:italic;
+		}
+		.formTextBox:hover{border:solid 1px #000;
+		background:#FFFFFF;
+		color:#333333;
+		}
+		.multi{
+			border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		resize:none;
+		width:350px;
+		height:120px;
+		padding-left:10px;
+		font-family:palinto;
+		font-style:italic;
+		}
+		.multi:hover{border:solid 1px #000;
+			background:#FFFFFF;}
+		
+		.btn1{
+			background-image:url(btn.png);
+			background-repeat:repeat-x;
+			border:solid 1px #FFFFFF;
+			border-radius:2px;
+			-webkit-border-radius:2px;
+			-moz-border-radius:2px;
+			}
+			.btn1:hover{
+				border:solid 1px  #000000;}
+	
+@font-face
+{
+font-family:login;
+src:url(Respective.ttf);
+
+    
+}
+
+
+@font-face
+{
+font-family:myNew;
+src:url(TCCB____.TTF);
+
+    
+}
+
+@font-face
+{
+font-family:twCent;
+src:url(TCM_____.TTF);
+
+    
+}
+
+
+@font-face
+{
+font-family:palinto;
+src:url(palai_0.ttf));
+
+    
+}
+

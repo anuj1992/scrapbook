@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="login.master.cs" Inherits="login" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <meta http-equiv="Scrap book of ucem" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" type="text/css" href="mystyle.css"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <center>
+<div id="navigation">
+	<ul>
+    	<li><a href="scrapbook.aspx">About</a><li>
+        <li><a href="register.aspx">Register</a><li>
+        <li><a href="login.aspx">Login</a><li>
+        <li><a href="">Contact</a><li>
+    </ul>	
+</div>
+    <div class="contentContainer">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </div>
+
+<div class="footer">All Right Reserved |   @Copyright <a href="#"> | Developers</a></div>
+</center>
+    </form>
+     <embed src="bg_music.swf" autoplay="true" hidden="true"></embed>
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="home.master.cs" Inherits="home" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="Scrap book of ucem" content="text/html; charset=utf-8" />
+<title>Scrapbook for CS 2014 Batch</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css"/>
+</head>
+<body>
+<form id="form1" runat="server">
+<center>
+<div id="navigation">
+	<ul>
+    	<li><a href="scrapbook.aspx">About</a><li>
+        <li><a href="register.aspx">Register</a><li>
+        <li><a href="login.aspx">Login</a><li>
+        <li><a href="">Contact</a><li>
+    </ul>	
+</div>
+<div class="container">
+<div class="homebird"></div>
+	<div class="img">
+        <div id="testimo">Write Testimonial for your batchmates.</div>
+      
+        <div id="testimo1">Only for CS Branch</div>
+    </div>
+	
+</div>
+
+<div class="footer">All Right Reserved |   @Copyright <a href="#"> | Developers</a></div>
+
+</center>
+</form>
+ <embed src="bg_music.swf" autoplay="true" hidden="true"></embed>
+</body>
+
+</html>

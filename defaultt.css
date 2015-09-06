@@ -1,0 +1,44 @@
+﻿body {
+	margin:0px;
+	pading:0px;
+	background-image:url(back_bgPic.jpg);
+	background-position:center;
+	background-position:top;
+	background-repeat:no-repeat;
+	background-color:#000000;
+	overflow:hidden;
+}
+.heading{
+	
+	position:absolute;
+	font-family:head;
+	font-size:9em;
+	color:#000;
+	font-weight:bold;
+	letter-spacing:.2em;
+	margin-top:300px;
+	margin-left:200px;
+	box-shadow:4px  #000000;
+}
+.heading:hover{
+	color:#cc2334;
+	cursor:pointer;
+	}
+	.scrapbook{}
+.vam{
+	position:absolute;
+	width:369px;
+	height:114px;
+	background-image:url(vam.png);
+	background-repeat:no-repeat;
+	margin-top:348px;
+	margin-left:170px;
+	
+}
+
+@font-face
+{
+font-family:head;
+src:url(Respective.ttf);
+   
+}
